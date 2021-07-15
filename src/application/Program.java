@@ -22,12 +22,9 @@ public class Program  {
 		
 		List<Product> list = new ArrayList<Product>();
 		
-		
-		
 		System.out.print("Enter the number of products: ");
 		int n = sc.nextInt();
 		System.out.println();
-		
 		
 		for (int i=0; i<n; ++i ) {
 			sc.nextLine();
@@ -63,8 +60,9 @@ public class Program  {
 				list.add(product);
 				System.out.println();
 			}
-			
-			
+		}
+		
+		for ( Product prd : list ) {
 			
 		}
 		
